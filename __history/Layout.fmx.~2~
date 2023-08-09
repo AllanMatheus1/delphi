@@ -1,0 +1,55 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'FrmPrincipal'
+  ClientHeight = 620
+  ClientWidth = 460
+  Fill.Kind = Solid
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Top
+    Fill.Color = xFFD91C1C
+    Size.Width = 460.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    object Label1: TLabel
+      Align = Contents
+      StyledSettings = [Family, FontColor]
+      Size.Width = 460.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 36.000000000000000000
+      TextSettings.Font.StyleExt = {00060000000000000004000000}
+      TextSettings.HorzAlign = Center
+      TextSettings.Trimming = None
+      Text = 'CRM Ninfa'
+      TabOrder = 0
+    end
+    object imgBarMenu: TImage
+      MultiResBitmap.Height = 56
+      MultiResBitmap.Width = 56
+      MultiResBitmap = <
+        item
+          Width = 56
+          Height = 56
+          PNG = {
+            89504E470D0A1A0A0000000D4948445200000038000000380806000000A8863B
+            1E000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+            0113494441546843EDD9BD4A03411486E151106C62D09BB0CF05A4B091040BA3
+            57277819110B5B114940D1CA3BB0D68020FEBE870C4B84B313ECE62CDF032FB3
+            84DD25614932BB93444444FEEF84EEE9837E02F44E333AA2B58EC93B49942654
+            6457CE3B304A76251B1B795CF54ABDE566480BDA596EA6B499C7550F798CEA29
+            8FAD86F449DEE5AFBD6F1AD35A07F4485FE49DA8B6DEE8860E49444444A423BC
+            BB09B34536A7DBA7B67D6A62534A9B645FE6EDA23D9A9337E7ABBD5BDAA5A273
+            F20E8ED219153D93776094ECFD37BC1B5EDB29B23FDF41EF035EE431AA691E5B
+            45FE91B9A63E354A7F13231AD0B6BD50B917BAA32BB2C716222222221D764A5A
+            C2AE342D616B09BB725AC2365AC2161191EE4BE9177495A2D01FAAFC96000000
+            0049454E44AE426082}
+          FileName = 'C:\Users\allan\Downloads\8665130_bars_data_icon.png'
+        end>
+    end
+  end
+end
